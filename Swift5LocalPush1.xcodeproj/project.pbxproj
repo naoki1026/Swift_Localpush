@@ -12,6 +12,9 @@
 		B0DD90A7221EADBA00EAC6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0DD90A5221EADBA00EAC6BE /* Main.storyboard */; };
 		B0DD90A9221EADBB00EAC6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DD90A8221EADBB00EAC6BE /* Assets.xcassets */; };
 		B0DD90AC221EADBB00EAC6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0DD90AA221EADBB00EAC6BE /* LaunchScreen.storyboard */; };
+		B0DD90B6221EAE6800EAC6BE /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0DD90B5221EAE6800EAC6BE /* sound.wav */; };
+		B0DD90B8221EB8D500EAC6BE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DD90B7221EB8D500EAC6BE /* ViewController2.swift */; };
+		B0DD90BA221FAFC900EAC6BE /* bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0DD90B9221FAFC900EAC6BE /* bird.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		B0DD90A8221EADBB00EAC6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0DD90AB221EADBB00EAC6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0DD90AD221EADBB00EAC6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0DD90B5221EAE6800EAC6BE /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sound.wav; path = "ローカルPush画像/sound.wav"; sourceTree = SOURCE_ROOT; };
+		B0DD90B7221EB8D500EAC6BE /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		B0DD90B9221FAFC900EAC6BE /* bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				B0DD90A1221EADBA00EAC6BE /* AppDelegate.swift */,
 				B0DD90A3221EADBA00EAC6BE /* ViewController.swift */,
+				B0DD90B9221FAFC900EAC6BE /* bird.jpg */,
 				B0DD90A5221EADBA00EAC6BE /* Main.storyboard */,
+				B0DD90B7221EB8D500EAC6BE /* ViewController2.swift */,
+				B0DD90B5221EAE6800EAC6BE /* sound.wav */,
 				B0DD90A8221EADBB00EAC6BE /* Assets.xcassets */,
 				B0DD90AA221EADBB00EAC6BE /* LaunchScreen.storyboard */,
 				B0DD90AD221EADBB00EAC6BE /* Info.plist */,
@@ -122,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0DD90B6221EAE6800EAC6BE /* sound.wav in Resources */,
+				B0DD90BA221FAFC900EAC6BE /* bird.jpg in Resources */,
 				B0DD90AC221EADBB00EAC6BE /* LaunchScreen.storyboard in Resources */,
 				B0DD90A9221EADBB00EAC6BE /* Assets.xcassets in Resources */,
 				B0DD90A7221EADBA00EAC6BE /* Main.storyboard in Resources */,
@@ -137,6 +148,7 @@
 			files = (
 				B0DD90A4221EADBA00EAC6BE /* ViewController.swift in Sources */,
 				B0DD90A2221EADBA00EAC6BE /* AppDelegate.swift in Sources */,
+				B0DD90B8221EB8D500EAC6BE /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVTF48299S;
 				INFOPLIST_FILE = Swift5LocalPush1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DVTF48299S;
 				INFOPLIST_FILE = Swift5LocalPush1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
